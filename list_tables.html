@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists ans Table</title>
+
+    <style>
+        table, th, td {
+          border:1px solid black;
+            border-collapse: collapse;
+        }
+        </style>
+</head>
+
+<body>
+    <!-- unordered list -->
+    <h1> unordered list</h1>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <!-- ordered Lists -->
+    <h1> ordered list</h1>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!-- A description list is a list of terms, with a description of each term.
+
+    The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:-->
+    <h1> discription list</h1>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <!-- Tables-->
+     <h1> Table</h1>
+     <table style="width:30%">
+        <thead>
+            <tr>
+          <th> Name </th>
+          <th> City </th>
+          <th> Email </th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td> Akshay kumar</td>
+              <td> Mumbai </td>
+              <td> ak@gmail.com</td>
+          </tr>
+          <tr>
+              <td> Pritee Zinta</td>
+              <td> Pune </td>
+              <td> pz@gmail.com</td>
+          </tr>
+          <tr>
+              <td> john sinha</td>
+              <td> Mumbai </td>
+              <td> js@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <!-- colspan rowspan -->
+      <table style="width:100%">
+        <thead>
+            <tr>
+         <th colspan="2">Name</th>
+          
+          <th> Email </th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td> Akshay kumar</td>
+              <td> Mumbai </td>
+              <td> ak@gmail.com</td>
+          </tr>
+          <tr>
+              <td> Pritee Zinta</td>
+              <td> Pune </td>
+              <td> pz@gmail.com</td>
+          </tr>
+          <tr>
+              <td> john sinha</td>
+              <td> Mumbai </td>
+              <td> @gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      
+      <!-- rowspan -->
+      <br>
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Jill</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Phone</th>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>555-8745</td>
+      </tr>
+      </table>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!--defines doc type and version of html  -->
+<html lang="en"> <!-- root ele, wraps all content on the page -->
+
+<head> <!-- contains metadata about doc -->
+    <meta charset="UTF-8"> <!-- defines char encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ensures proper rendering on mobile devices-->
+    <title>HTML Introduction</title> <!--displays title in the browser-->
+</head>
+
+<body> <!-- contains all the data that is displayed on the page-->
+
+    <!-- Links are defined with anchor tag as follows-->
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">This is a link to HTML docs</a>
+    <br>
+    <br>
+
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.google.com">Google</a></p>
+    <p><a href="https://www.google.com/" target="_blank">Google</a></p> <!-- to open link in new tab/window-->
+
+    <!-- _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window -->
+    <h2>Relative URLs</h2>
+    <p><a href="index.html">HTML Images</a></p>
+
+    <!-- img tag-->
+    <!-- The source file (src), alternative text (alt), width, and height are provided as attributes -->
+    <img src="https://quotefancy.com/media/wallpaper/3840x2160/8046266-STAY-FOCUSED-Wallpaper.jpg" alt="Stay focused"
+        width="140" height="142">
+    <br>
+    <br>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <br>
+    <br>
+    <!-- img as a link-->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACUCAMAAACtIJvYAAAAkFBMVEX+/v750xT56Vn68p0AAAD39Nfr0keqqq/c29nGx8v674j49M3x0jXSsRY5NRX55Wzz6rX5861iVx/64jX39ubw3HagiRotKhXCphnVyF3MwGazpkdFPRKbii0mJBiLfy1VTieUikWCeT1+ag1rZDVCQzHQuD8pLCZQUDZoVw3ivxkZFgmOehwAAxiqnEnbwDgyz+W9AAAG9klEQVR4nO2cbXuiOhCGNQhnF6IQRLRra1vtthXt6f//dycEgZA3khDs+cDzpXtpSu5OJpPJJOxsNmnSpEmTJk2aNGnSJEfK/CTZxFjr9br8gVDkZz9L5IUxXM9ZQbjx0M+Q+RECHA+lNUjubjN/A1VIN5sF97SYj4J+pJtAciewkDUTXIdx7CVE+F/r7vdxMj5S5nWBQOzhOefTyrII4VnQNgrGthei7QDj0MNCyOcVRV58J3slAY2EShGsKBJw4UmKWrB4LHPRgwc9PO3LrpPII2CJACtL8Eg2vxGNAhW14TLwyg9ufSdeJQbJqxWPaS7KozZZudA0QlXveKWhDJYkDVZYj3vgO2bKKNclnttQRW332L8S7GoRSqIo8ijVvwzRWFAgmmWtoRLkdYRI0GI+xOaqDR06hIraubdOaDuxvctVr5mhM+eK2tEDKGtiJm8SHayNK6jWz9ehb2EnBsuJtSgoAOpwSU0xXTW+5cJa1PCtAcjs7ETULI3DreVTiwwAIQkFXX8KNU0FQJMlxgOhMgoqAABxdsKdaWGFII5B4wsD41bYGT9sK94AQNtUrbHmg3IIOpkqnxoivid9JtAaCw5YfChPx/kdVizoSYfJu7VtjQWsoejFr6ICVE+1et0qBq3aKGPtWpRTYV8PKCy6IzVY3G1KpbKWruXPu1QYK6gIGCgVFtOUmtJ24aEzfjWWRKEXhgxZWIrDpze2VsaKulB4z6nAKhXHLZiAh6OCNiFeANWDpSP6kRbJFpqPgtV5onHQ8vlSy9wFVueBnilVwkPdzOWQytizxFWgwVhM2cQwlLITkB7E6vEP/XR/9n/Yj5jCSWAExcYqBivYp4vFIlVz7R/LNg8qUxnGLJmpboP4tCA6cKag9Fy1WeyVVEbZMhcWaGvBGxTWg4wJtG1arIAdQCyT4KCqeEKYNj2mMqhg27R5IQNNooqgamng7z7/25ReF63eJVRHqs2+oRI8zCDP8gS/3mpF9bgCYpenmpQGDWSmmkN9qo0Kakf3KPGsB7rJ9qGCEpd4tctambJqnXeonqqsi9Fzp81ezmSw6ijiAtap0+PzzQ5dqrTT5kmKNDeIDcI1sFG3x9M8oFVNwIChmiuMv9aNDUpnhy8MFYQBpy7VUflX6lJJlxtC9clQleEelpJS5Uoq3UVHkFpROnFUNW9QBwBoQqWbkSofwlAJe4RHAyrNvU6mpso1enzqtNkpn7fWo1IHhvmy06N4zn/TTbbqQzvNhFSVMJR6pHp8lLTZUm3O6sc5otpTPRaSNtSy9CVrU8sN1fysYYZ2Fp6kbYyo1BkD1vLQ7zHBx63NW+9RsB5V2PeY+e6LdPh3qWjzXmF99p9P62UN/VQ4PLx8vqjDEG5zOl/VQaGSXnDvHcFSUJjDWUlvIez1dsdyNAfdylG8+hmqnhXHOZUWVN/q7Fqaq3NPJuNaulVbddbnWrpZn/IGk3Ppbgi1wqgz6e4mxDuvZZ7nfUmJhbR3Xr5gMSnSy2KxGoFKe5cq2NGXu5bDacDSVxxXq9VJkGTo15H56kf+1bsrUGtHcuYVj6Vfg+Sj+0ljW9CjPeHiPtaGEkT37aHMxK9DqHBenX5xOzWTwigXsa7vZB/Yl+gplJb1hvdHNtM3KSIL04a3Ia71indpeAYXzCw2Op3IRJvPotwIvltDfYjCitlJjrAGWWB//fi2hFo8ib4wO7kU51hLHEk/zK1VpLKZYnZiIluhl/3FDIGkUMYH9ZIqZGktwwCxlJdujE/ihP5e9yFaOWS6LuR/h/GppXRPQZzkoDmKcKcoclldS5FVowuycpx15mJxLCsSX3vJ1zbXP6T1bfh8IaPSl9YUZPAWqfQ5VpfD5Ocmu79ksc5VQaK4EvaLPFO0u5Ki2hdeqyOm1U7s90V+K/ad5fPC9nqfahNdHC+3olnO+PL37nq+MaWKSWE3fjPV6TPp/bkurl3S8+uS6N/X9HJpCoHK+GF/W61nF/2d00eFXR2O6uAx5Hqm+pwJqzilhwsDdNk+nvsWS+vxI9LYGn7v8vxtVestz3f9oWzItb5Zn2tZa/CNcv1Xb/Rlvv5x1nKP5eKSu2gnPUhD7/tWitxay9VLHZFLa7mxVCnfnbXcvaHgMEA4fsnESaXN8ZsvM+a9MzvFrt8SmjmYiu78vKNB5hq49CnkWzs99EaDwkJ2XJsxmbAygzdlawXjvDrYlSHX5h5MWFmifXoBvTsxEflerDEhN3d4qZhRhJRgIE7uaaYOWbgRnIoHmxD9FFEtP0oShOJK5cuW0c/+RwiTJk2aROtXpfon1u9G3Hf346ExVPo1OpvIML//kYsjm42AxhApcBRkY1GZYXHmGkXCUWQh7+tYPJrU8ZkWYxNN+j/qP7rziQd03ir7AAAAAElFTkSuQmCC"
+            alt="HTML tutorial" style="width:42px;height:42px;"></a>
+    <br>
+    <!-- Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email): -->
+    <a href="mailto:saksheephadtare@gmail.com">Send email</a>
+    <br>
+    <!-- link title -->
+    <!-- displays info when mouse moves over the element. -->
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML" title="Go to HTML docs">go to
+        HTML docs </a>
+</body>
+
+</html>
